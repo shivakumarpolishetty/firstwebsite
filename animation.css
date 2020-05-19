@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:green;
+
+}
+.box{
+    width:100%;
+    height:500px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:black;
+    position:relative;
+
+}
+
+.car{
+    position:absolute;
+    left:0px;
+    top:319px;
+    animation-name:police;
+    animation-duration:4s;
+    transition-property:transform;
+
+}
+.car:hover{
+
+    transform: rotateY(360deg);
+
+}
+@keyframes police{
+    0%{}
+   
+
+}
+   
